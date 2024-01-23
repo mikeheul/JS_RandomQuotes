@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+    color: #fff;
+}
+
+main {
+    min-height: 100vh;
+    padding-top: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #272c3d;
+    text-align: center;
+}
+
+.btn {
+    color: #000;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    border-radius: 1em;
+}
+
+#quote-container {
+    max-width: 800px;
+    margin-top: 50px;
+    display: flex;
+    flex-grow: 1;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.quote {
+    position: relative;
+    padding: 25px;
+    border: 1px solid #fff;
+    background: #ffffff30;
+    border-radius: 1rem;
+    box-shadow: rgba(50, 50, 93, 0.701) 0px 50px 100px -20px, rgb(0, 0, 0) 0px 30px 60px -30px;
+}
+.title {
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.content {
+    font-style: italic;
+    margin-bottom: 20px;
+}
+.quote-author {
+    text-align: right;
+}
+
+.heart {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+.active {
+    color: red;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+#openModalLink {
+    margin-top: 15px;
+}
+
+#favoriteQuotesContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.modal-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fefefe;
+    padding: 20px;
+    border: 1px solid #888;
+    border-radius: 8px;
+}
+.modal-content * {
+    color: #000;
+}
+.quote-modal {
+    margin-top: 15px;
+}
+.title-quote-modal {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+@media(max-width: 860px) {
+    #quote-container {
+        padding: 0 20px;
+    }
+}
+@media(max-width: 190px) {
+    #quote-container {
+        padding: 0;
+    }
+    .quote {
+        padding: 5px;
+    }
+    .heart {
+        position: relative;
+        display: inline-block;
+        text-align: center;
+    }
+    .quote-author {
+        text-align: center;
+    }
+}
