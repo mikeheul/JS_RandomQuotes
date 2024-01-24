@@ -65,4 +65,28 @@ let quotes = [
         "title": "Eternal Sunshine of the Spotless Mind",
         "content": "I could die right now Clem. I’m just…happy. I’ve never felt that before. I’m just exactly where I want to be."
     },
+    {
+        "id": 12,
+        "author": "Personne",
+        "title": "Mon nom est personne",
+        "content": "Le seul moyen d’allonger la vie, c’est d’essayer de ne pas la raccourcir."
+    },
+    {
+        "id": 13,
+        "author": "Frodon",
+        "title": "Le Seigneur des anneaux : le retour du roi",
+        "content": "Comment reprendre le cours de son ancienne vie, comment continuer, lorsque dans son cœur on commence à comprendre qu’on ne peut plus retourner en arrière. Il y a des choses que le temps ne peut cicatriser, des blessures si profondes qu’elles se sont emparées de vous."
+    },
+    {
+        "id": 14,
+        "author": "Ian Malcolm",
+        "title": "Jurassic Park",
+        "content": "Auriez-vous projeté de mettre des dinosaures dans votre parc à dinosaures ?"
+    },
+    {
+        "id": 15,
+        "author": "Mathilda",
+        "title": "Léon",
+        "content": "La vie c’est comme ça tout le temps ? Ou c’est seulement quand on est petit ?"
+    },
 ]

@@ -65,10 +65,10 @@ function createQuoteElement(quote) {
     quoteDiv.innerHTML =
         `<div class=''>
             <p class='title'>${quote.title}</p>
-            <p class=''>“${quote.content}”</p>
+            <p class='content'>“${quote.content}”</p>
         </div> 
         <div class=''>
-            <p>- ${quote.author}</p>
+            <p class='author'>- ${quote.author}</p>
         </div>`;
 
     return quoteDiv;

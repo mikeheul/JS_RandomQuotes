@@ -54,7 +54,7 @@ main {
   font-style: italic;
   margin-bottom: 20px;
 }
-.quote .quote-author {
+.quote .author {
   text-align: right;
 }
 .quote .heart {
