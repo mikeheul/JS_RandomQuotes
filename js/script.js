@@ -87,7 +87,7 @@ function getQuotes() {
     selectedQuotes.forEach(quote => {
         let quoteDiv = createQuoteElement(quote);
         quoteDiv.classList.add('quote');
-        (favoriteQuotes.includes(quote.id)) ? quoteDiv.classList.add("test") : "";
+        (favoriteQuotes.includes(quote.id)) ? quoteDiv.classList.add("isFavorite") : "";
 
         // Create and append the heart icon with event listener
         const heartIcon = document.createElement('div');

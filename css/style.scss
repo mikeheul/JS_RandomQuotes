@@ -52,7 +52,7 @@ main {
     transition: .5s;
     overflow: hidden;
 
-    &.test {
+    &.isFavorite {
         border: 2px solid rgb(128, 255, 0);
     }
 
