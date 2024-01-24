@@ -64,7 +64,7 @@ function createQuoteElement(quote) {
     // Populate the quote element with HTML content
     quoteDiv.innerHTML =
         `<div class=''>
-            <p class='title-quote-modal'>${quote.title}</p>
+            <p class='title'>${quote.title}</p>
             <p class=''>“${quote.content}”</p>
         </div> 
         <div class=''>
