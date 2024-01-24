@@ -50,6 +50,11 @@ main {
     border-radius: 1rem;
     box-shadow: rgba(50, 50, 93, 0.701) 0px 50px 100px -20px, rgb(0, 0, 0) 0px 30px 60px -30px;
     transition: .5s;
+    overflow: hidden;
+
+    &.test {
+        border: 2px solid rgb(128, 255, 0);
+    }
 
     .title {
         margin-bottom: 10px;
@@ -70,10 +75,11 @@ main {
     .heart {
         position: absolute;
         top: 10px;
-        right: 10px;
+        right: -25px;
         width: 30px;
         height: 30px;
         cursor: pointer;
+        transition: .5s;
 
         i.active {
             color: red;
@@ -83,7 +89,11 @@ main {
     &:hover {
         cursor: pointer;
         background: #ffffff47;
-        transform: translateY(-5px);
+
+        .heart {
+            top: 10px;
+            right: 10px;
+        }
     }
 }
 
