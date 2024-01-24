@@ -134,6 +134,14 @@ main {
     cursor: pointer;
 }
 
+footer {
+    padding: 50px 0;
+    background: #272c3d;
+}
+footer p {
+    text-align: center;
+}
+
 // Media Queries
 @media(max-width: 860px) {
     #quote-container {

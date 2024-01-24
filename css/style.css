@@ -117,6 +117,15 @@ main {
   cursor: pointer;
 }
 
+footer {
+  padding: 50px 0;
+  background: #272c3d;
+}
+
+footer p {
+  text-align: center;
+}
+
 @media (max-width: 860px) {
   #quote-container {
     padding: 0 20px;
