@@ -49,6 +49,7 @@ main {
     background: #ffffff30;
     border-radius: 1rem;
     box-shadow: rgba(50, 50, 93, 0.701) 0px 50px 100px -20px, rgb(0, 0, 0) 0px 30px 60px -30px;
+    transition: .5s;
 
     .title {
         margin-bottom: 10px;
@@ -77,6 +78,12 @@ main {
         i.active {
             color: red;
         }
+    }
+
+    &:hover {
+        cursor: pointer;
+        background: #ffffff47;
+        transform: translateY(-5px);
     }
 }
 

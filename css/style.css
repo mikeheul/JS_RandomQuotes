@@ -44,6 +44,7 @@ main {
   background: rgba(255, 255, 255, 0.1882352941);
   border-radius: 1rem;
   box-shadow: rgba(50, 50, 93, 0.701) 0px 50px 100px -20px, rgb(0, 0, 0) 0px 30px 60px -30px;
+  transition: 0.5s;
 }
 .quote .title {
   margin-bottom: 10px;
@@ -67,6 +68,11 @@ main {
 }
 .quote .heart i.active {
   color: red;
+}
+.quote:hover {
+  cursor: pointer;
+  background: rgba(255, 255, 255, 0.2784313725);
+  transform: translateY(-5px);
 }
 
 .modal {
